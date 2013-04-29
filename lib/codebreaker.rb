@@ -1,4 +1,4 @@
-
+module Codebreaker
 	class Game
 		def initialize(output)
 			@output = output
@@ -9,3 +9,4 @@
 			@output.puts 'Enter guess: '
 		end
 	end
+end
